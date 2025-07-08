@@ -1,1 +1,61 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>COSTA</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center / cover;
+      opacity: 0.5;
+      z-index: -1;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      text-align: center;
+      color: #000; /* Adjust based on background image */
+      padding: 0 20px;
+    }
+
+    h1 {
+    font-size: 4rem;
+    margin: 80px 0 0 0;
+    }
+
+    p {
+      font-size: 1.23rem;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+    <h1>COSTA</h1>
+    <p>
+      COSTA is a new project to build community-driven software cyberinfrastructure for physical intelligence.
+      The project is led by researchers at Vanderbilt University, Georgia Tech, UC Davis, and Stanford University.
+      The primary aim of COSTA is to make it easy for Computer and Information Science and Engineering professionals (e.g., AI and robotics researchers) to integrate state-of-the-art, high-performance, fully-differentiable physical simulation capabilities into their research or production workflows.
+      As the project develops, this website will contain information about the software platform itself, as well as community events and resources related to COSTA.
+      We also expect to publish curricular resources to help educators integrate COSTA into the classroom.  Stay tuned!
+    </p>
+  </div>
+</body>
+</html>
